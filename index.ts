@@ -1,7 +1,7 @@
 import { UserController } from "./src/controllers/user.controller";
 
 const server = Bun.serve({
-  port: 3000,
+  port: 3001,
   async fetch(req) {
     const url = new URL(req.url);
 
